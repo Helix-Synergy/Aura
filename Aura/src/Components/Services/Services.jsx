@@ -177,7 +177,7 @@ const Services = () => {
                 ))}
               </div>
             </div>
-          <div className="mt-6">
+          {/* <div className="mt-6">
   <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">
     Keywords
   </h4>
@@ -185,7 +185,7 @@ const Services = () => {
   <p className="text-sm text-gray-500 italic leading-relaxed">
     {service.keywords}
   </p>
-</div>
+</div> */}
 
           </div>
 
@@ -207,7 +207,7 @@ const Services = () => {
           Contact AURA Business Consulting today to discuss how we can support your growth journey.
         </p>
         <a
-          href="tel:+1234567890"
+          href="tel:7075782798"
           className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-full shadow-lg hover:bg-gray-100 transition"
         >
           📞 Call Us

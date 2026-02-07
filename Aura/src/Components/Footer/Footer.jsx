@@ -45,7 +45,7 @@ const consultingLinks = [
           {/* Brand */}
           <div className="space-y-8 mt-[-33px]">
             <img
-              src="/Images/image.png"
+              src="/Images/aura-logo1.png"
               alt="Aura Logo"
               className="w-40"
             />

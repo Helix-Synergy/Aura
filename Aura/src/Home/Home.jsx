@@ -31,13 +31,13 @@ navigate("/services")
           </h1>
 
           <p className="text-gray-200 mt-4 text-lg md:text-2xl animate-slideUp delay-200">
-            Strategic Insight Operational Excellence Sustainable Growth.
+            Strategic Insight Operational Excellence Sustainable Growth
           </p>
 
           <p className="text-gray-300 mt-6 max-w-3xl mx-auto animate-slideUp delay-300">
             A global business advisory firm delivering strategic, operational,
             financial, and people-focused consulting solutions for sustainable
-            growth and competitive advantage.
+            growth and competitive advantage
           </p>
 
           <button onClick={HandleService} className="mt-8 px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition-all duration-300 animate-slideUp delay-500 cursor-pointer">

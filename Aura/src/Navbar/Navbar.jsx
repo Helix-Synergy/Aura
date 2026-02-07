@@ -20,8 +20,8 @@ const Navbar = () => {
   // 🔹 Decide logo based on scroll & route
   const logoSrc =
     scroll || !isHomePage
-      ? "/Images/logo.webp"
-      : "/Images/image.png";
+      ? "/Images/aura-logo.2.png"
+      : "/Images/aura-logo1.png";
 
   return (
     <nav
@@ -74,7 +74,7 @@ const Navbar = () => {
           <Link to="/aboutus" onClick={() => setOpen(false)} className="block hover:text-blue-500">About</Link>
           <Link to="/services" onClick={() => setOpen(false)} className="block hover:text-blue-500">Services</Link>
           <Link to="/industries" onClick={() => setOpen(false)} className="block hover:text-blue-500">Industries</Link>
-          <Link to="/casestudies" onClick={() => setOpen(false)} className="block hover:text-blue-500">Case Studies</Link>
+          <Link to="/testimonials" onClick={() => setOpen(false)} className="block hover:text-blue-500">Testimonials</Link>
           <Link to="/contact" onClick={() => setOpen(false)} className="block hover:text-blue-500">Contact</Link>
         </div>
       )}
