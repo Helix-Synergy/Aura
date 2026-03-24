@@ -68,6 +68,7 @@
   {
     title: "Human Resources (HR) Consulting",
     subtitle: "Building High-Performance Organizations",
+      shortLabel: "HR",
     description:
       "AURA supports organizations in creating people strategies that drive engagement, productivity, and leadership excellence.",
     services: [
@@ -192,7 +193,7 @@ const Services = () => {
           {/* Image or Icon placeholder */}
           <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
             <div className="w-64 h-64 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 shadow-xl flex items-center justify-center text-white text-xl font-bold animate-pulse">
-              {service.title.split(" ")[0]}
+           {service.shortLabel || service.title.split(" ")[0]}
             </div>
           </div>
         </div>

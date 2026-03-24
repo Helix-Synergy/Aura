@@ -51,7 +51,7 @@ const consultingLinks = [
             />
 
             <p className="text-base leading-relaxed text-slate-400 max-w-sm mt-[-60px]">
-              Elevating strategy. Transforming performance. Creating lasting value.
+              Elevating strategy Transforming performance Creating lasting value
             </p>
 
             {/* Social Icons */}
@@ -123,13 +123,12 @@ const consultingLinks = [
               Contact
             </h4>
 
-            <div className="flex items-start gap-4 text-base leading-relaxed">
-              <FaMapMarkerAlt className="mt-1 text-slate-400 text-4xl" />
-              <p>
-                Mahaveer Radiance, near Madhapur Metro Station,
-                CBI Colony, Madhapur, Hyderabad, Telangana 500081
-              </p>
-            </div>
+    <div className="flex items-start gap-4 text-base leading-relaxed">
+  <FaMapMarkerAlt className="mt-1 text-slate-400 text-4xl" />
+  <p>
+    Mahaveer Radiance Near Madhapur metro station, CBI Colony, Hyderabad, Telangana 500081
+  </p>
+</div>
 
             <div className="flex items-center gap-4 text-base">
               <FaEnvelope className="text-slate-400 text-lg" />
@@ -147,7 +146,7 @@ const consultingLinks = [
                 href="tel:+917075782798"
                 className="hover:text-white transition"
               >
-                +91 70757 82798
+                +91 7075-782-798
               </a>
             </div>
           </div>
@@ -156,12 +155,12 @@ const consultingLinks = [
         {/* Bottom Bar */}
         <div className="mt-10 pt-10 border-t border-slate-700 flex flex-col md:flex-row justify-between items-center gap-4 text-base text-slate-400 mb-[-95px]">
           <span>© 2026 Aura. All Rights Reserved.</span>
-          <a
+          {/* <a
             href="#"
             className="hover:text-white transition"
           >
             Privacy & Cookie Policy
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

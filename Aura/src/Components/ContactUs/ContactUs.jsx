@@ -94,13 +94,12 @@ toast.error(message);
             <div className="flex items-start gap-3">
               <span className="text-lg">📍</span>
               <p>
-                Mahaveer Radiance, metro station, near Madhapur, CBI Colony,
-                Madhapur, Hyderabad, Telangana 500081
+                Mahaveer Radiance  Near Madhapur metro station, CBI Colony, Hyderabad, Telangana 500081
               </p>
             </div>
-            <p>📞 Phone: +91-7075782798</p>
+            <p>📞 Phone: +91-7075-782-798</p>
             <p>📧 Email: aurabusinessc@gmail.com</p>
-            <p>🌐 Website: www.aurabusinessconsulting.com</p>
+            <p>🌐 Website: www.aurabusinessconsulting.pro</p>
           </div>
         </div>
 

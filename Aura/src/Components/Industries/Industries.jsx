@@ -3,7 +3,7 @@ import { FaIndustry, FaLaptopCode, FaMoneyCheckAlt, FaHeartbeat, FaShoppingCart,
 
 const industries = [
   {
-    title: "Manufacturing & Industrial",
+    title: "Manufacturing & Industry",
     icon: <FaIndustry className="text-4xl text-purple-500 mb-4" />,
     description: "Operations optimization, supply chain & logistics consulting, lean manufacturing & quality advisory",
   },
@@ -69,7 +69,7 @@ const Industries = () => {
             <h2 className="text-xl font-semibold mb-4 mt-4 text-gray-900">{industry.title}</h2>
 
             {/* Description as list */}
-            <ul className="list-disc list-inside text-gray-600 text-left mt-2 space-y-1">
+            <ul className="list-disc text-gray-600 text-left mt-2 ml-5 space-y-1">
               {industry.description.split(',').map((point, idx) => (
                 <li key={idx}>{point.trim()}</li>
               ))}
